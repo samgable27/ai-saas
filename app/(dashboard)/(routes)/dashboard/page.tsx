@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import { useRouter } from "next/navigation";
 
-const tools = [
+export const tools = [
   {
     label: "Conversation",
     icon: MessageSquare,
@@ -49,7 +49,7 @@ const tools = [
     href: "/code",
   },
 ];
-const dashboardPage = () => {
+const DashboardPage = () => {
   const router = useRouter();
   return (
     <div>
@@ -82,4 +82,4 @@ const dashboardPage = () => {
   );
 };
 
-export default dashboardPage;
+export default DashboardPage;
