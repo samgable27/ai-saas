@@ -10,7 +10,6 @@ import {
   DialogTitle,
 } from "./ui/dialog";
 import { Badge } from "./ui/badge";
-import { tools } from "@/app/(dashboard)/(routes)/dashboard/page";
 import { Card } from "./ui/card";
 import { cn } from "@/lib/utils";
 import { Check, Zap } from "lucide-react";
@@ -18,6 +17,7 @@ import { Button } from "./ui/button";
 import axios from "axios";
 import { useState } from "react";
 import toast from "react-hot-toast";
+import { tools } from "@/constants";
 
 export const ProModal = () => {
   const proModal = useProModal();
